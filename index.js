@@ -115,7 +115,7 @@ controller.on('slash_command', function (slashCommand, message) {
                             return;
                         }
                         else {
-                            slashCommand.replyPrivate(message, "I could not locat the card specified.");
+                            slashCommand.replyPrivate(message, "I could not locate the card specified.");
                         }
                     }
                 }
